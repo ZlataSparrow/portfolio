@@ -638,7 +638,6 @@ body:not(.user-is-tabbing) a:focus {
     box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
   }
   
-  /* Optional: Responsive adjustments */
   @media (max-width: 768px) {
     .header__intro {
       flex-direction: column;
