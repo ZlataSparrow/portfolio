@@ -619,3 +619,10 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
+.header__photo-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
