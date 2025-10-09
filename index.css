@@ -620,9 +620,30 @@ body:not(.user-is-tabbing) a:focus {
     } 
 }
 
-.header__photo-img {
+.header__intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .header__photo-img {
     width: 200px;
-    height: auto;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
+  }
+  
+  /* Optional: Responsive adjustments */
+  @media (max-width: 768px) {
+    .header__intro {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .header__photo-img {
+      margin-top: 2rem;
+    }
   }
