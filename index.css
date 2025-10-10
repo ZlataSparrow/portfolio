@@ -628,7 +628,8 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: space-between;
     gap: 4rem;
     flex-wrap: wrap;
-  }
+    padding-top: 6rem; 
+}
   
   .header__photo-img {
     width: 300px;
