@@ -673,7 +673,10 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .profile__block p {
-    font-size: 1.7rem;   
-    line-height: 1.7;
-    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 1rem;
+    text-indent: -1.8em;     /* Pull first line to the left */
+    padding-left: 1.8em;     /* Push rest of lines to the right */
   }
