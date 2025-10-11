@@ -677,6 +677,12 @@ body:not(.user-is-tabbing) a:focus {
     line-height: 1.6;
     color: #ddd;
     margin-bottom: 1rem;
-    text-indent: -1.8em;     /* Pull first line to the left */
-    padding-left: 1.8em;     /* Push rest of lines to the right */
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .profile__block .label {
+    min-width: 160px;  /* consistent label width */
+    font-weight: 600;
+    flex-shrink: 0;
   }
