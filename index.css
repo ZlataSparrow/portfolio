@@ -657,3 +657,30 @@ body:not(.user-is-tabbing) a:focus {
       margin-top: 2rem;
     }
   }
+
+  .profile__info {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .profile__block {
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 3rem;
+    border-left: 4px solid var(--pink);
+    border-radius: 8px;
+    font-size: var(--font-size-small);
+    line-height: 1.6;
+    max-width: var(--container-medium-width);
+  }
+  
+  .profile__block h3 {
+    color: var(--white);
+    margin-bottom: 1rem;
+  }
+  
+  .profile__block p {
+    margin-bottom: 1.2rem;
+  }
