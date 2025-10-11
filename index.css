@@ -666,10 +666,14 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .profile__block h3 {
-    margin-bottom: 0.5rem;
+    font-size: 1.1rem;  /* was 1.3rem or larger */
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #ffffff;
   }
   
   .profile__block p {
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 1.05rem;   /* make it slightly bigger */
+    line-height: 1.7;
+    margin: 0.5rem 0;
   }
