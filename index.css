@@ -673,16 +673,15 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .profile__block p {
-    font-size: 1 rem;
-    line-height: 1.6;
+    font-size: 1.4rem; /* smaller than before */
+    line-height: 1.5;
     color: #ddd;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     display: flex;
     align-items: flex-start;
-  }
+}
   
-  .profile__block .label {
-    min-width: 160px;  /* consistent label width */
+.profile__block .label {
+    font-size: 1.3rem;
     font-weight: 600;
-    flex-shrink: 0;
-  }
+}
