@@ -674,14 +674,14 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .profile__block p {
-    font-size: 1.59 rem; /* smaller than before */
+    font-size: 1.4 rem; /* smaller than before */
     font-weight: 600;
     margin-bottom: 0.8rem;
     color: #ddd;
 }
   
   .profile__block .label {
-    font-size: 1.59 rem; /* smaller than before */
+    font-size: 1.4 rem; /* smaller than before */
     font-weight: 600;
     margin-bottom: 0.8rem;
     color: #ddd;
