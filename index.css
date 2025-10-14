@@ -665,7 +665,7 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .profile__block h3 {
-    font-size: 1.3rem; /* match intro paragraph */
+    font-size: 1.6rem; /* match intro paragraph */
     font-weight: 600;
     color: #fff;
     margin-bottom: 0.8rem;
