@@ -682,7 +682,7 @@ body:not(.user-is-tabbing) a:focus {
   
   /* Paragraphs after labels */
   .profile__block p {
-    font-size: 0.99rem;
+    font-size: 1rem;
     color: #ccc;
     margin-bottom: 0.9rem;
     line-height: 1.6;
