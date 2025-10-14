@@ -673,7 +673,7 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .profile__block p {
-    font-size: 1.85 rem; /* smaller than before */
+    font-size: 1.59 rem; /* smaller than before */
     line-height: 1.5;
     color: #ddd;
     margin-bottom: 0.8rem;
