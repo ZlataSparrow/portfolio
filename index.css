@@ -665,7 +665,7 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .profile__block h3 {
-    font-size: 1.6rem; /* match intro paragraph */
+    font-size: 1.8rem; /* match intro paragraph */
     font-weight: 600;
     color: #fff;
     margin-bottom: 0.8rem;
@@ -674,7 +674,7 @@ body:not(.user-is-tabbing) a:focus {
   /* Label: e.g., Languages & Tools */
   .profile__block .label {
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 0.3rem;
     color: #ddd;
@@ -682,7 +682,7 @@ body:not(.user-is-tabbing) a:focus {
   
   /* Paragraphs after labels */
   .profile__block p {
-    font-size: 0.95rem;
+    font-size: 0.99rem;
     color: #ccc;
     margin-bottom: 0.9rem;
     line-height: 1.6;
