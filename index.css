@@ -659,30 +659,35 @@ body:not(.user-is-tabbing) a:focus {
     }
   }
   
-  .profile__info {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+/* Profile section smaller than main intro */
+.profile__info {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    max-width: 800px;
+    color: #ddd;
   }
   
+  /* Headings like 💻 Technical Toolbox */
   .profile__block h3 {
-    font-size: 2.2rem;  
+    font-size: 1rem;        /* Smaller than "Hi I’m Zlata" */
     font-weight: 600;
-    margin-bottom: 0.4rem;
-    color: #ffffff;
+    margin-bottom: 0.5rem;
+    color: #fff;
   }
   
+  /* Paragraph structure: label + text (like абзац) */
   .profile__block p {
-    font-size: 1 rem; /* smaller than before */
-    font-weight: 600;
-    margin-bottom: 0.8rem;
-    color: #ddd;
-}
+    display: flex;
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+    color: #ccc;
+  }
   
+  /* Label on the left (like “Languages & Tools:”) */
   .profile__block .label {
-    font-size: 1 rem; /* smaller than before */
+    min-width: 160px;       /* Aligns all labels */
     font-weight: 600;
-    margin-bottom: 0.8rem;
-    color: #ddd;
-}
+    flex-shrink: 0;
+    color: #fff;
+  }
+
