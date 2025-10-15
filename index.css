@@ -131,13 +131,13 @@ h3 {
 
 .heading-primary {
     line-height: 1;
-    font-size: var(--font-size-huge);
+    font-size: 6.375rem;
     font-weight: 400;
 }
 
 @media(max-width: 900px) {
     .heading-primary {
-        font-size: 6.5rem;
+        font-size: 5.525rem;
     }
 }
 
@@ -162,7 +162,7 @@ h3 {
 
 @media(max-width: 500px) {
     .heading-primary {
-        font-size: var(--font-size-large);
+        font-size: 4.675rem;
     }
 
     h2 {
@@ -431,7 +431,7 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
     font-family: 'Jost', sans-serif;
     /*font-size: var(--font-size-medium);*/
-    font-size: 2.5rem;
+    font-size: 2.125rem;
 }
 
 @media(max-width: 500px) {
