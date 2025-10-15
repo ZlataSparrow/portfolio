@@ -217,7 +217,7 @@ body:not(.user-is-tabbing) a:focus {
 .btn {
     position: relative;
     display: inline-block;
-    padding: 1rem 4.2rem;
+    padding: 0.95rem 3.99rem; /* 5% smaller padding */
     text-decoration: none;
     color: inherit;
     border: 1px solid  var(--pink);
@@ -745,7 +745,7 @@ body:not(.user-is-tabbing) a:focus {
     font-size: 1.6rem; /* a bit smaller than h3 */
     font-weight: 600;
     margin-bottom: 0.3rem;
-    color: #ddd;
+    color: var(--pink); /* same color as Get in Touch button */
   }
   
   .profile__block .desc {
