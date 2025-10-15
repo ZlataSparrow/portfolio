@@ -711,6 +711,14 @@ body:not(.user-is-tabbing) a:focus {
     color: var(--white);
     text-align: center;
     margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .location-icon {
+    width: 1.2rem;
+    height: 1.2rem;
   }
   .header__photo-img {
     width: 398px;
