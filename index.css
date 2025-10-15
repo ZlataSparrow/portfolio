@@ -698,6 +698,7 @@ body:not(.user-is-tabbing) a:focus {
   .header__photo {
     margin-left: auto;
     align-self: center; /* vertically center relative to text block */
+    margin-top: -2.5rem; /* move photo up by ~15% */
   }
   
   /* Profile photo stays on the right */
@@ -737,5 +738,5 @@ body:not(.user-is-tabbing) a:focus {
   .profile__block .desc {
     font-size: 1.495rem;  /* 15% bigger than 1.3rem */
     color: #ccc;
-    line-height: 0.6;  /* 50% less space between rows */
+    line-height: 0.78;  /* 30% more space between rows */
   }
