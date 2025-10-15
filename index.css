@@ -717,8 +717,8 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .location-icon {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 0.6rem;
+    height: 0.6rem;
   }
   .header__photo-img {
     width: 398px;
