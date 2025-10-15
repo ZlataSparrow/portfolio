@@ -664,31 +664,53 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: 1.8rem;
   }
   
+  .header__intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+  
+  /* Profile photo stays on the right */
+  .header__photo {
+    flex-shrink: 0;
+  }
+  .header__photo-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
+  }
+  
+  /* Profile blocks underneath intro */
+  .profile__block {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  /* Make 💻 Toolbox and other subtitles same size as intro paragraph */
   .profile__block h3 {
-    font-size: 1.8rem; /* match intro paragraph */
+    font-size: 1.8rem;  /* match your intro paragraph size */
     font-weight: 600;
     color: #fff;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
   }
   
-  /* Label: e.g., Languages & Tools */
+  /* Labels (Languages & Tools, etc.) slightly smaller than h3 */
   .profile__block .label {
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 0.3rem;
     color: #ddd;
+    margin-bottom: 0.3rem;
   }
   
-  /* Paragraphs after labels */
-  .profile__block p {
+  /* Paragraph content: smaller than labels */
+  .profile__block .desc {
     font-size: 1.2rem;
-    color: #ccc;
-    margin-bottom: 0.9rem;
     line-height: 1.6;
-  }
-  
-  /* Force line break after & */
-  .profile__block .label-break {
-    display: inline-block;
+    color: #ccc;
+    margin-bottom: 1rem;
   }
