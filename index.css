@@ -681,7 +681,7 @@ body:not(.user-is-tabbing) a:focus {
   
   /* Label (e.g., "Languages & Tools:") */
   .label {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: #ddd;
     min-width: 130px;
