@@ -659,36 +659,39 @@ body:not(.user-is-tabbing) a:focus {
     }
   }
   
-/* === PROFILE BLOCK TYPOGRAPHY === */
-.profile__block {
+  .profile__block {
     margin-bottom: 1.8rem;
   }
   
   .profile__block h3 {
-    font-size: 1.8rem; /* match intro paragraph */
+    font-size: 1.6rem; /* matches the intro paragraph size */
     font-weight: 600;
     color: #fff;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
   }
   
-  /* Label: e.g., Languages & Tools */
-  .profile__block .label {
-    display: block;
-    font-size: 1.6rem;
+  /* Group wrapper */
+  .label-group {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    line-height: 1.5;
+  }
+  
+  /* Label (e.g., "Languages & Tools:") */
+  .label {
+    font-size: 1.4rem;
     font-weight: 600;
-    margin-bottom: 0.3rem;
     color: #ddd;
+    min-width: 130px;
+    line-height: 1.4;
   }
   
-  /* Paragraphs after labels */
-  .profile__block p {
-    font-size: 1.3rem;
+  /* Description (e.g., Python, SQL...) */
+  .desc {
+    font-size: 1.2rem;
     color: #ccc;
-    margin-bottom: 0.9rem;
+    flex: 1;
     line-height: 1.6;
-  }
-  
-  /* Force line break after & */
-  .profile__block .label-break {
-    display: inline-block;
   }
