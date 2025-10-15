@@ -41,7 +41,7 @@
     --white-1: #e5e5e6da;
 
 
-    --container-max-width: 1180px;
+    --container-max-width: 1239px;
     --container-normal-width: 800px;
     --container-medium-width: 700px; 
     --container-small-width: 500px;
@@ -738,5 +738,5 @@ body:not(.user-is-tabbing) a:focus {
   .profile__block .desc {
     font-size: 1.495rem;  /* 15% bigger than 1.3rem */
     color: #ccc;
-    line-height: 1.0;  /* no extra space between lines */
+    line-height: 0.8;  /* minimal spacing between lines */
   }
