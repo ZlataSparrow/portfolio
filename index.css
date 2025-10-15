@@ -690,7 +690,7 @@ body:not(.user-is-tabbing) a:focus {
   
   /* Description (e.g., Python, SQL...) */
   .desc {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #ccc;
     flex: 1;
     line-height: 1.6;
