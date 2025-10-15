@@ -681,17 +681,16 @@ body:not(.user-is-tabbing) a:focus {
   
   /* Label (e.g., "Languages & Tools:") */
   .label {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #ddd;
-    min-width: 130px;
-    line-height: 1.4;
+    margin-bottom: 0.2rem;
   }
   
   /* Description (e.g., Python, SQL...) */
   .desc {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #ccc;
-    flex: 1;
-    line-height: 1.2;
+    line-height: 1.6;
+    margin-bottom: 0.9rem;
   }
