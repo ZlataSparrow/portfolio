@@ -351,6 +351,16 @@ body:not(.user-is-tabbing) a:focus {
     margin-right: var(--gutter-medium);
 }
 
+/* compact spacing for icon items */
+.nav__icon-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav__social-image {
+    height: 2.6rem;
+}
+
 @media(max-width: 500px) {
     .nav {
         justify-content: center;
