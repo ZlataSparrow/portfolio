@@ -699,10 +699,6 @@ body:not(.user-is-tabbing) a:focus {
     margin-left: auto;
     align-self: center; /* vertically center relative to text block */
     margin-top: -2.5rem; /* move photo up by ~15% */
-  }
-  
-  /* Profile photo stays on the right */
-  .header__photo {
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
