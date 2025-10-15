@@ -695,8 +695,7 @@ body:not(.user-is-tabbing) a:focus {
   
   .header__photo {
     margin-left: auto;
-    margin-top: 3rem;    /* push photo lower */
-    margin-bottom: 3rem; /* add space after photo */
+    align-self: center; /* vertically center relative to text block */
   }
   
   /* Profile photo stays on the right */
