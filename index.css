@@ -645,6 +645,7 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: space-between;
     gap: 4rem;
     flex-wrap: wrap;
+    margin-top: 3.5rem; /* add space below top nav */
   }
   
   .header__photo-img {
