@@ -625,20 +625,20 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__intro {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 4rem;
     flex-wrap: wrap;
-    padding-top: 6rem; 
-}
+  }
   
   .header__photo-img {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 15px rgba(255, 50, 88, 0.4);
+    box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
   }
+  
   
   @media (max-width: 768px) {
     .header__photo-img {
@@ -684,33 +684,28 @@ body:not(.user-is-tabbing) a:focus {
     box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
   }
   
-  /* Profile blocks underneath intro */
   .profile__block {
-    margin-top: 2rem;
-    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
   }
   
-  /* Make 💻 Toolbox and other subtitles same size as intro paragraph */
   .profile__block h3 {
-    font-size: 1.8rem;  /* match your intro paragraph size */
+    font-size: 2.2rem;  /* same as your intro paragraph size */
     font-weight: 600;
     color: #fff;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
   
-  /* Labels (Languages & Tools, etc.) slightly smaller than h3 */
   .profile__block .label {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.6rem; /* a bit smaller than h3 */
     font-weight: 600;
-    color: #ddd;
     margin-bottom: 0.3rem;
+    color: #ddd;
   }
   
-  /* Paragraph content: smaller than labels */
   .profile__block .desc {
-    font-size: 1.2rem;
-    line-height: 1.6;
+    font-size: 1.3rem;  /* smaller than label */
     color: #ccc;
-    margin-bottom: 1rem;
+    line-height: 1.6;
   }
