@@ -735,7 +735,7 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .profile__block .desc {
-    font-size: 1.3rem;  /* smaller than label */
+    font-size: 1.495rem;  /* 15% bigger than 1.3rem */
     color: #ccc;
     line-height: 1.6;
   }
