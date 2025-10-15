@@ -628,8 +628,8 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .header__photo-img {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
@@ -638,8 +638,8 @@ body:not(.user-is-tabbing) a:focus {
   
   @media (max-width: 768px) {
     .header__photo-img {
-      width: 180px;
-      height: 180px;
+      width: 200px;
+      height: 200px;
       margin-top: 2rem;
     }
   }
@@ -680,10 +680,12 @@ body:not(.user-is-tabbing) a:focus {
   /* Profile photo stays on the right */
   .header__photo {
     flex-shrink: 0;
+    display: flex;
+    align-items: center; /* vertically center image within the header row */
   }
   .header__photo-img {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
