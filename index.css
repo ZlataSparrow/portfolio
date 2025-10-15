@@ -554,9 +554,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center; /* center children horizontally */
+    flex-direction: column; /* stack heading content vertically */
+    align-items: center;    /* center horizontally */
+    justify-content: center;
 }
 
 @media(max-width: 700px) {
@@ -572,7 +572,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 500px) {
     .about__text {
-        flex: 0 0 25%;
+        flex: initial; /* no fixed width */
     }
     
     .about__photo-container {
@@ -588,6 +588,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     text-align: center;
     gap: 1.2rem;
+    margin: 0 auto;
 }
 
 /* --------------------------------------- */
