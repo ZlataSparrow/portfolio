@@ -746,7 +746,7 @@ body:not(.user-is-tabbing) a:focus {
   .profile__block h3 {
     font-size: 1.87rem;  /* 15% smaller */
     font-weight: 600;
-    color: var(--pink);
+    color: #ccc;
     margin-bottom: 1rem;
   }
   
