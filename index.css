@@ -679,7 +679,7 @@ body:not(.user-is-tabbing) a:focus {
   
 /* === PROFILE BLOCK TYPOGRAPHY === */
 .profile__block {
-    margin-bottom: 1.8rem;
+    margin-bottom: 2.7rem;
   }
   
   .header__intro {
@@ -717,8 +717,8 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .location-icon {
-    width: 0.9rem;
-    height: 0.9rem;
+    width: 1.17rem;
+    height: 1.17rem;
   }
   .header__photo-img {
     width: 398px;
