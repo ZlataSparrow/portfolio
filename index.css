@@ -772,7 +772,7 @@ body:not(.user-is-tabbing) a:focus {
   }
 
   .tools-list {
-    color: var(--white);
+    color:  #ccc;
     font-size: 1.495rem; /* same as .desc */
     margin: 0;
   }
