@@ -689,7 +689,7 @@ body:not(.user-is-tabbing) a:focus {
   
 /* === PROFILE BLOCK TYPOGRAPHY === */
 .profile__block {
-    margin-bottom: 4.05rem;
+    margin-bottom: 6.075rem;
   }
   
   .header__intro {
@@ -762,4 +762,10 @@ body:not(.user-is-tabbing) a:focus {
     font-size: 1.495rem;  /* 15% bigger than 1.3rem */
     color: #ccc;
     line-height: 0.8;  /* minimal spacing between lines */
+  }
+
+  .tools-list {
+    color: var(--white);
+    font-size: 1.3rem;
+    margin: 0;
   }
