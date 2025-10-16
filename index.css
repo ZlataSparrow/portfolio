@@ -217,7 +217,7 @@ body:not(.user-is-tabbing) a:focus {
 .btn {
     position: relative;
     display: inline-block;
-    padding: 0.95rem 3.99rem; /* 5% smaller padding */
+    padding: 0.475rem 1.995rem; /* 50% smaller padding */
     text-decoration: none;
     color: inherit;
     border: 1px solid  var(--pink);
@@ -746,7 +746,7 @@ body:not(.user-is-tabbing) a:focus {
   .profile__block h3 {
     font-size: 1.87rem;  /* 15% smaller */
     font-weight: 600;
-    color: #fff;
+    color: var(--pink);
     margin-bottom: 1rem;
   }
   
