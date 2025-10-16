@@ -660,8 +660,8 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .header__photo-img {
-    width: 398px;
-    height: 398px;
+    width: 358px;
+    height: 358px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
@@ -670,8 +670,8 @@ body:not(.user-is-tabbing) a:focus {
   
   @media (max-width: 768px) {
     .header__photo-img {
-      width: 331px;
-      height: 331px;
+      width: 298px;
+      height: 298px;
       margin-top: 2rem;
     }
   }
@@ -731,8 +731,8 @@ body:not(.user-is-tabbing) a:focus {
     height: 1.17rem;
   }
   .header__photo-img {
-    width: 398px;
-    height: 398px;
+    width: 358px;
+    height: 358px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(255, 50, 88, 0.3);
