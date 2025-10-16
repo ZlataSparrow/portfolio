@@ -755,7 +755,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
-    gap: 0.5rem; /* Small gap between label and content */
+    gap: 0.25rem; /* Very small gap between label and content */
   }
 
   .profile__block .label {
