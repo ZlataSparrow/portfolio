@@ -750,6 +750,12 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: 1rem;
   }
   
+  .label-group {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: baseline;
+  }
+
   .profile__block .label {
     display: block;
     font-size: 1.6rem; /* a bit smaller than h3 */
