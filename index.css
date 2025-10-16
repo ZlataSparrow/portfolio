@@ -359,6 +359,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__social-image {
     height: 2.6rem;
+    transition: all .3s;
+}
+
+.nav__social-image:hover {
+    transform: scale(1.2);
 }
 
 @media(max-width: 500px) {
@@ -621,6 +626,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer__social-image {
     height: 4rem;
+    transition: all .3s;
+}
+
+.footer__social-image:hover {
+    transform: scale(1.2);
 }
 
 .footer__github-buttons {
