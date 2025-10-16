@@ -126,7 +126,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: var(--pink);
 }
 
 .heading-primary {
@@ -762,7 +762,7 @@ body:not(.user-is-tabbing) a:focus {
     font-size: 1.6rem; /* a bit smaller than h3 */
     font-weight: 600;
     margin: 0;
-    color: var(--pink); /* same color as Get in Touch button */
+    color: var(--white); /* same color as h3 headings */
     width: 200px; /* Fixed width for consistent alignment */
     flex-shrink: 0; /* Prevent shrinking */
   }
