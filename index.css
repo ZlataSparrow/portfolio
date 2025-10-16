@@ -763,7 +763,10 @@ body:not(.user-is-tabbing) a:focus {
     font-weight: 600;
     margin: 0;
     color: var(--pink); /* same color as Get in Touch button */
+    width: 200px; /* Fixed width for consistent alignment */
+    flex-shrink: 0; /* Prevent shrinking */
   }
+
   
   .profile__block .desc {
     font-size: 1.495rem;  /* 15% bigger than 1.3rem */
@@ -772,7 +775,8 @@ body:not(.user-is-tabbing) a:focus {
   }
 
   .tools-list {
-    color:  #ccc;
+    color: #ccc;
     font-size: 1.495rem; /* same as .desc */
     margin: 0;
+    flex: 1; /* Take up remaining space */
   }
