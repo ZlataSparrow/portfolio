@@ -754,13 +754,14 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: 1rem;
     display: flex;
     align-items: baseline;
+    flex-wrap: nowrap;
   }
 
   .profile__block .label {
-    display: block;
+    display: inline;
     font-size: 1.6rem; /* a bit smaller than h3 */
     font-weight: 600;
-    margin-bottom: 0.3rem;
+    margin: 0;
     color: var(--pink); /* same color as Get in Touch button */
   }
   
@@ -772,6 +773,6 @@ body:not(.user-is-tabbing) a:focus {
 
   .tools-list {
     color: var(--white);
-    font-size: 1.3rem;
+    font-size: 1.495rem; /* same as .desc */
     margin: 0;
   }
